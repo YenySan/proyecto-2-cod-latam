@@ -66,6 +66,9 @@ section {
   max-width: 18rem;
 }
 
+div{
+  flex-direction: column;
+}
 h1 {
   font-size: 36px;
   font-weight: bold;
@@ -114,11 +117,12 @@ h2 {
   margin: 20px;
 }
 
-#contacto li:hover {
+/* #contacto li:hover {
   transition: 1s;
   transform: scale(1.2);
   cursor: pointer;
-}
+
+}  Esto pasarlo a JS.*/
 
 footer {
   width: 100%;
@@ -137,7 +141,12 @@ h3 {
 }
 
 
-@media screen and (max-width:800px){
-  
-
+@media screen and (min-width: 1024px){
+  section {
+    flex-direction: row;
+  } 
+  h1 {
+    font-size: 42px;
+  }
 }
+    
