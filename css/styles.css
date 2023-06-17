@@ -172,8 +172,9 @@ h3 {
   }
 
   .photo {    
-    max-width: 10rem;
-    margin-top: 100px;
+    max-width: 16rem;
+    margin-top: 50px;
+    margin-bottom: 10px;
   }
 
   h1 {
@@ -182,7 +183,7 @@ h3 {
 
   p {
     font-size: 13px;   
-    width: 80vw;
+    width: 100vw;
   }
 
   button a {
