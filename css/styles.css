@@ -23,14 +23,14 @@ nav ul {
   list-style: none;
 }
 
-nav a {  
+nav a {
   font-size: 25px;
   text-decoration: none;
   padding: 15px;
 }
 
 nav a:hover {
-  font-weight: bold;  
+  font-weight: bold;
 }
 
 .logo {
@@ -44,8 +44,8 @@ main {
 }
 
 section {
-  min-height: 100vh;
-  display: flex;  
+  height: 100vh;
+  display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -53,7 +53,7 @@ section {
 
 .photo {
   border-radius: 50%;
-  max-width: 18rem;
+  max-width: 20rem;
 }
 
 #intro {
@@ -64,13 +64,11 @@ section {
 
 h1 {
   font-size: 35px;  
-  text-align: left;
 }
 
 p {
-  font-size: 18px;
-  text-align: left;  
-  margin: 20px auto 20px;  
+  font-size: 20px;  
+  margin: 20px auto 20px;
 }
 
 button {
@@ -82,7 +80,7 @@ button {
 
 button a {
   color: #e5e5e5;
-  font-size: 20px;
+  font-size: 18px;
   text-decoration: none;
 }
 
@@ -93,36 +91,34 @@ button a:hover {
 #contacto {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center; 
-  margin: auto;
-  width: 40vw;
+  margin: 0 auto;
+  width: 60vw;
 }
 
 article {
   background-color: #e5e5e5;
-  border-radius: 15px;
-  padding: 15px;
+  border-radius: 18px;
+  padding: 20px;
 }
 
 h2 {
   font-size: 28px;
+  font-weight: bold;
 }
 
 #contacto p {
   text-align: center;
-  margin: 20px;
+  margin: 10px;
 }
 
 #enlaces {
   display: flex;
-  align-items: center;
-  list-style: none;  
+  list-style: none;
 }
 
 i {
   color: #14213d;
-  font-size: 3rem;
+  font-size: 4rem;
   margin: 25px;
 }
 
@@ -136,11 +132,11 @@ footer {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  height: 80px;
+  height: 100px;
   background-color: #14213d;
-  color: #fbfbfb;  
+  color: #fbfbfb;
 }
- 
+
 h3 {
   font-size: 25px;
   color: #fbfbfb;
@@ -148,6 +144,70 @@ h3 {
 }
 
 @media screen and (max-width: 768px) {
- 
+
+  header {
+    height: 70px;    
+  }
+
+  nav a {
+    font-size: 15px;
+    padding: 5px;
+  }
+
+  .logo {
+    width: 55px;
+    margin-top: 5px;
+  }
+
+  section {
+    height: 80vh;
+  }
+
+  .photo {
+    max-width: 12rem;
+    margin-top: 80px;
+  }
+
+  #intro {   
+    max-width: 50vw;
+  }
+
+  h1 {
+    font-size: 20px;
+    margin-top: 100px;
+  }
+
+  p {
+    font-size: 13px;
+    margin: 10px auto 10px;
+  }
+
+  button a {
+    font-size: 13px;    
+  }
+
+  #contacto {
+    width: 80vw;
+  }
   
+  article {
+    padding: 8px;
+  }
+  
+  h2 {
+    font-size: 18px;
+  }
+  
+  i {
+    font-size: 2rem;
+    margin: 15px;
+  }
+  
+  footer {
+    height: 60px;
+  }
+  
+  h3 {
+    font-size: 15px;
+ }
 }
