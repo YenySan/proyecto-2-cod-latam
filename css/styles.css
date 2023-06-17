@@ -40,7 +40,7 @@ nav a:hover {
 }
 
 main {
-  background-color: #fbfbfb;
+  background-color: #fbfbfb;  
 }
 
 section {
@@ -63,11 +63,11 @@ section {
 }
 
 h1 {
-  font-size: 35px;  
+  font-size: 35px;
 }
 
 p {
-  font-size: 20px;  
+  font-size: 20px;
   margin: 20px auto 20px;
 }
 
@@ -144,9 +144,8 @@ h3 {
 }
 
 @media screen and (max-width: 768px) {
-
   header {
-    height: 70px;    
+    height: 70px;
   }
 
   nav a {
@@ -160,54 +159,54 @@ h3 {
   }
 
   section {
-    height: 80vh;
+    height: 100vh;
+    width: 60vw;
   }
 
-  .photo {
-    max-width: 12rem;
-    margin-top: 80px;
+  #inicio {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center; 
+    text-align: center;
   }
 
-  #intro {   
-    max-width: 50vw;
+  .photo {    
+    max-width: 10rem;
+    margin-top: 100px;
   }
 
   h1 {
     font-size: 20px;
-    margin-top: 100px;
   }
 
   p {
-    font-size: 13px;
-    margin: 10px auto 10px;
+    font-size: 13px;   
+    width: 80vw;
   }
 
   button a {
-    font-size: 13px;    
+    font-size: 13px;
   }
 
-  #contacto {
-    width: 80vw;
-  }
-  
   article {
     padding: 8px;
   }
-  
+
   h2 {
     font-size: 18px;
   }
-  
+
   i {
     font-size: 2rem;
     margin: 15px;
   }
-  
+
   footer {
     height: 60px;
   }
-  
+
   h3 {
     font-size: 15px;
- }
+  }
 }
