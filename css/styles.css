@@ -6,14 +6,24 @@
   scroll-behavior: smooth;
   font-family: "Quicksand", sans-serif;
   line-height: 1.5;
-  color: #14213d;
+  color: var(--primary-color);
+}
+
+:root{
+  --primary-color: #14213d;
+  --secondary-color: #fbfbfb;  
+}
+
+.dark-mode{
+--primary-color:#fbfbfb;
+  --secondary-color: #222222;
 }
 
 header {
   width: 100%;
   height: 100px;
   position: fixed;
-  background-color: #fbfbfb;
+  background-color: var(--secondary-color);
   box-shadow: 0 4px 0 rgba(0, 0, 0, 0.08), 0 3px 5px 0 rgba(0, 0, 0, 0.12);
 }
 
@@ -31,16 +41,29 @@ nav a {
 
 nav a:hover {
   font-weight: bold;
+  color: #fca311;
 }
 
 .logo {
   margin-right: auto;
-  width: 85px;
-  margin-top: 5px;
+  width: 75px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.active {
+  background-color: var(--primary-color);
+  color: #fca311;
+}
+
+#modo{
+ margin: 15px;
+ width: 35px;
+ cursor:pointer;
 }
 
 main {
-  background-color: #fbfbfb;
+  background-color: var(--secondary-color);;
 }
 
 section {
@@ -53,7 +76,7 @@ section {
 
 .photo {
   border-radius: 50%;
-  width: 25rem;
+  width: 22rem;
 }
 
 #intro {
@@ -71,15 +94,15 @@ p {
   margin: 20px auto 20px;
 }
 
-button {
-  background-color: #14213d;
+#intro button {
+  background-color:  var(--primary-color);
   border: none;
   border-radius: 25px;
   padding: 10px 30px 10px;
 }
 
 button a {
-  color: #e5e5e5;
+  color: var(--secondary-color);
   font-size: 18px;
   text-decoration: none;
 }
@@ -96,19 +119,22 @@ button a:hover {
 }
 
 article {
-  background-color: #e5e5e5;
+  background-color: var(--primary-color);
   border-radius: 18px;
   padding: 20px;
+  opacity: 75%;
 }
 
 h2 {
   font-size: 28px;
   font-weight: bold;
+  color: var(--secondary-color);
 }
 
 #contacto p {
   text-align: center;
   margin: 10px;
+  color: var(--secondary-color);
 }
 
 #enlaces {
@@ -117,7 +143,7 @@ h2 {
 }
 
 i {
-  color: #14213d;
+  color:  var(--primary-color);
   font-size: 4rem;
   margin: 25px;
 }
@@ -133,15 +159,17 @@ footer {
   flex-wrap: wrap;
   width: 100%;
   height: 100px;
-  background-color: #14213d;
-  color: #fbfbfb;
+  background-color:  var(--primary-color);
+  color: var(--secondary-color);;
 }
 
 h3 {
   font-size: 25px;
-  color: #fbfbfb;
+  color: var(--secondary-color);;
   margin: auto;
 }
+
+
 
 @media screen and (max-width: 768px) {
   header {
@@ -149,14 +177,19 @@ h3 {
   }
 
   nav a {
-    font-size: 15px;
-    padding: 5px;
+    font-size: 15px;    
   }
 
   .logo {
     width: 55px;
     margin-top: 5px;
   }
+
+  #modo{
+    margin: 5px;
+    width: 20px;
+    cursor:pointer;
+   }
 
   section {
     height: 80vh;
