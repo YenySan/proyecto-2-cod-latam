@@ -168,13 +168,12 @@ h3 {
     flex-direction: column;
     align-content: center;
     justify-content: center; 
-    text-align: center;
+    text-align: left;
   }
 
   .photo {    
-    max-width: 16rem;
-    margin-top: 50px;
-    margin-bottom: 10px;
+    max-width: 14rem;
+    margin: 20px;
   }
 
   h1 {
@@ -183,11 +182,12 @@ h3 {
 
   p {
     font-size: 13px;   
-    width: 100vw;
+    width: 80vw;
   }
 
   button a {
     font-size: 13px;
+    padding: 5px;
   }
 
   article {
