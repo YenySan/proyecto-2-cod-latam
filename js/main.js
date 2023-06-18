@@ -1,4 +1,3 @@
-
 var modo = document.getElementById("modo");
 modo.onclick = function(){
     document.body.classList.toggle("dark-mode");
@@ -8,4 +7,11 @@ modo.onclick = function(){
        modo.src="./assets/luna.png";
     }
 }
+
+const menuIcon = document.getElementById('menu-icon');
+const menu = document.getElementById('menu');
+
+menuIcon.addEventListener('click', function () {
+    menu.classList.toggle('active');
+});
 

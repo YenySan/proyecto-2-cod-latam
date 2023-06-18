@@ -12,6 +12,7 @@
     />
     <meta property="og:image:alt" content="Yeney Sánchez" />
     <meta property="og:site_name" content="Yeney Sánchez" />
+    <link rel="shortcut icon" href="./assets/logo.png" />
     <title>Yeney Sánchez Cásido</title>
     <link rel="stylesheet" href="./css/styles.css" />
     <script
@@ -22,13 +23,20 @@
 
   <body>
     <header>
-      <nav>
-        <ul>
+      <nav class="navbar">
+        <div class="menu-icon" id="menu-icon">
+          <i class="fa fa-bars"></i>
+        </div>
+        <ul class="menu" id="menu">
           <img class="logo" src="./assets/logo.png" alt="logo" />
-          <li id="items"><a href="#inicio">Inicio</a></li>
-          <li id="items"><a href="#contacto">Contacto</a></li>
+          <li class="nav-items"><a href="#inicio">Inicio</a></li>
+          <li class="nav-items"><a href="#contacto">Contacto</a></li>
           <img src="./assets/luna.png" id="modo" />
         </ul>
+        <div class="menu-hamburguesa">
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
       </nav>
     </header>
 
