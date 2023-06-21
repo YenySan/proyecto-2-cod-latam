@@ -201,9 +201,9 @@ h3 {
     justify-content: space-evenly;    
   }
 
-  .menu a {
-    font-size: 18px;
+  .menu a {    
     padding: 10px;
+    font-size: 18px;
   }
 
   .logo {
@@ -217,9 +217,9 @@ h3 {
 
   .menu-icon {
     width: 2px;
-    height: 1px;  
-    margin-left: 30px; 
+    height: 1px;      
     margin-top: 20px;
+    margin-left: 30px; 
     display: flex;    
     cursor: pointer;   
     align-items: center;     
@@ -228,8 +228,7 @@ h3 {
 
   .menu-icon__line {
     width: 2px;
-    height: 1px;   
-      
+    height: 1px;        
   }
 
   .menu {
