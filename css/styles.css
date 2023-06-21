@@ -191,7 +191,7 @@ h3 {
 @media screen and (max-width: 768px) {
   
   header {
-    height: 70px;
+    height: 60px;
   }
 
   .menu {
@@ -202,9 +202,8 @@ h3 {
   }
 
   .menu a {
-    font-size: 22px;
-    margin: 15px;
-    margin: 15px;
+    font-size: 18px;
+    padding: 10px;
   }
 
   .logo {
@@ -212,23 +211,23 @@ h3 {
   }
 
   #modo {
-    margin: 10px;
-    width: 20px;
+    width: 20px;       
     cursor: pointer;
   }
 
   .menu-icon {
-    width: 5px;
-    height: 1rem;  
-    padding: 5px;  
+    width: 1px;
+    height: 3px;  
+    margin: 5px;     
     display: flex;
-    cursor: pointer;    
-    flex-direction: column;    
+    cursor: pointer;   
+    align-items: center;     
+    justify-content: center;     
   }
 
   .menu-icon__line {
-    width: 3px;
-    height: 1px;
+    width: 2px;
+    height: 0.5px;    
   }
 
   .menu {
@@ -248,35 +247,35 @@ h3 {
     flex-direction: column;             
     justify-content: center;  
     align-items: center;  
-    min-height: 100vh;  
+    min-height: 70vh;  
   }
   
   #intro {   
-    width: 100vw; 
+    width: 80vw; 
     margin: auto;     
     text-align: center;     
   }
 
   .photo {
-    width: 18rem;
-    margin: 110px auto 0px;
+    width: 12rem;
+    margin: 180px auto 0px;
   }
 
   h1 {
-    font-size: 25px; 
-    margin: 0px auto 10px;       
+    font-size: 22px; 
+    margin: 10px auto 0px;       
   }
 
   p {
-    width: 80vw;
-    padding: 20px;
-    font-size: 20px; 
+    width: 70vw;
+    padding: 10px;
+    font-size: 15px; 
   }
 
   button a {
-    margin: 10px;
+    margin: 5px;
     padding: 5px;
-    font-size: 20px;     
+    font-size: 14px;     
   }
 
   article {
@@ -284,12 +283,12 @@ h3 {
   }
 
   h2 {
-    font-size: 23px;
+    font-size: 20px;
   }
 
   i {
     margin: 20px;
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   footer {
