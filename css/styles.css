@@ -216,10 +216,11 @@ h3 {
   }
 
   .menu-icon {
-    width: 1px;
-    height: 3px;  
-    margin: 5px;     
-    display: flex;
+    width: 2px;
+    height: 1px;  
+    margin-left: 30px; 
+    margin-top: 20px;
+    display: flex;    
     cursor: pointer;   
     align-items: center;     
     justify-content: center;     
@@ -227,7 +228,8 @@ h3 {
 
   .menu-icon__line {
     width: 2px;
-    height: 0.5px;    
+    height: 1px;   
+      
   }
 
   .menu {
@@ -235,11 +237,11 @@ h3 {
   }
 
   .menu.active {
-    margin: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;  
+    margin-bottom: 20px;
   }
 
   #inicio {         
@@ -258,7 +260,7 @@ h3 {
 
   .photo {
     width: 12rem;
-    margin: 180px auto 0px;
+    margin: 100px auto 10px;
   }
 
   h1 {
