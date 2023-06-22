@@ -188,10 +188,10 @@ h3 {
   
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 820px) {
   
   header {
-    height: 60px;
+    height: 55px;
   }
 
   .menu {
@@ -203,7 +203,7 @@ h3 {
 
   .menu a {    
     padding: 10px;
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .logo {
@@ -211,12 +211,12 @@ h3 {
   }
 
   #modo {
-    width: 20px;       
+    height: 16px;      
     cursor: pointer;
   }
 
   .menu-icon {
-    width: 2px;
+    width: 3px;
     height: 1px;      
     margin-top: 20px;
     margin-left: 30px; 
@@ -227,8 +227,8 @@ h3 {
   }
 
   .menu-icon__line {
-    width: 2px;
-    height: 1px;        
+    width: 3px;
+    height: 2px;        
   }
 
   .menu {
@@ -240,15 +240,15 @@ h3 {
     flex-direction: row;
     align-items: center;
     justify-content: center;  
-    margin-bottom: 20px;
+    margin: 0px 0px 35px 30px;
   }
 
   #inicio {         
     display: flex;        
     flex-direction: column;             
-    justify-content: center;  
+    justify-content: space-around;  
     align-items: center;  
-    min-height: 80vh;  
+    height: 80vh;  
   }
   
   #intro {   
@@ -259,7 +259,7 @@ h3 {
 
   .photo {
     width: 12rem;
-    margin: 130px auto 0px;
+    margin: 120px auto 0px;
   }
 
   h1 {
