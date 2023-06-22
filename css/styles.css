@@ -248,18 +248,18 @@ h3 {
     flex-direction: column;             
     justify-content: center;  
     align-items: center;  
-    min-height: 70vh;  
+    min-height: 80vh;  
   }
   
   #intro {   
     width: 80vw; 
     margin: auto;     
-    text-align: center;     
+    text-align: center;    
   }
 
   .photo {
     width: 12rem;
-    margin: 110px auto 0px;
+    margin: 130px auto 0px;
   }
 
   h1 {
