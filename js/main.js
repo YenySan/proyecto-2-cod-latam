@@ -23,3 +23,5 @@ listItem.forEach((itemLi) => {
   activoItem.classList.remove("activo");
   evento.target.classList.add("activo");
 });
+
+evento ();
