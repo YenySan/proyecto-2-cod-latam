@@ -17,11 +17,8 @@ menuIcon.addEventListener("click", function () {
 
 const listItem = document.querySelectorAll(".item");
 
-listItem.forEach((itemLi) => {
-  itemLi.addEventListener("click", (evento) => {});
-  const activoItem=document.querySelector(".activo");
-  activoItem.classList.remove("activo");
-  evento.target.classList.add("activo");
+listItem.forEach((li) => {
+  li.addEventListener("click", function (e) {});
+  e.classList.remove("activo");
+  item.target.classList.add("activo");
 });
-
-evento ();

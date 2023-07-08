@@ -76,7 +76,7 @@ main {
 
 #inicio {
   height: 50vw;
-  display: flex;  
+  display: flex;
   align-items: center;
   justify-content: center;
   text-align: left;
@@ -86,15 +86,11 @@ main {
   width: 22rem;
   margin-top: 40px;
   border-radius: 50%;
-}
-
-.photo:hover {
-  cursor: pointer;
-  border: 4px solid var(--primary-color);
+  border: 4px solid #fbfbfb
 }
 
 #intro {
-  width: 40vw;  
+  width: 40vw;
   margin: 60px 0px 0px 60px;
 }
 
@@ -151,7 +147,7 @@ h2 {
 
 #contacto p {
   margin: 10px;
-  text-align: center;  
+  text-align: center;
   color: var(--secondary-color);
 }
 
@@ -186,23 +182,21 @@ h3 {
   margin: auto;
   font-size: 22px;
   color: var(--secondary-color);
-  
 }
 
-@media screen and (max-width: 820px) and (min-width:478px) {
-  
+@media screen and (max-width: 820px) and (min-width: 478px) {
   header {
     height: 55px;
   }
 
   .menu {
     margin: auto;
-    display: flex;        
+    display: flex;
     align-items: center;
-    justify-content: space-evenly;    
+    justify-content: space-evenly;
   }
 
-  .menu a {    
+  .menu a {
     padding: 10px;
     font-size: 15px;
   }
@@ -212,24 +206,24 @@ h3 {
   }
 
   #modo {
-    height: 16px;      
+    height: 16px;
     cursor: pointer;
   }
 
   .menu-icon {
     width: 3px;
-    height: 1px;      
+    height: 1px;
     margin-top: 20px;
-    margin-left: 30px; 
-    display: flex;    
-    cursor: pointer;   
-    align-items: center;     
-    justify-content: center;     
+    margin-left: 30px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
   }
 
   .menu-icon__line {
     width: 3px;
-    height: 2px;        
+    height: 2px;
   }
 
   .menu {
@@ -240,22 +234,22 @@ h3 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;  
+    justify-content: center;
     margin: 0px 0px 35px 30px;
   }
 
-  #inicio {         
-    display: flex;        
-    flex-direction: column;             
-    justify-content: space-around;  
-    align-items: center;  
-    height: 80vh;  
+  #inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
   }
-  
-  #intro {   
-    width: 80vw; 
-    margin: auto;     
-    text-align: center;    
+
+  #intro {
+    width: 80vw;
+    margin: auto;
+    text-align: center;
   }
 
   .photo {
@@ -264,19 +258,19 @@ h3 {
   }
 
   h1 {
-    font-size: 20px; 
-    margin: 10px auto 10px;       
+    font-size: 20px;
+    margin: 10px auto 10px;
   }
 
   p {
     width: 70vw;
-    font-size: 15px; 
+    font-size: 15px;
   }
 
   button a {
     margin: 5px;
     padding: 5px;
-    font-size: 14px;     
+    font-size: 14px;
   }
 
   article {
@@ -308,12 +302,12 @@ h3 {
 
   .menu {
     margin: auto;
-    display: flex;        
+    display: flex;
     align-items: center;
-    justify-content: space-evenly;    
+    justify-content: space-evenly;
   }
 
-  .menu a {    
+  .menu a {
     padding: 8px;
     font-size: 10px;
   }
@@ -323,24 +317,24 @@ h3 {
   }
 
   #modo {
-    height: 14px;      
+    height: 14px;
     cursor: pointer;
   }
 
   .menu-icon {
     width: 3px;
-    height: 1px;      
+    height: 1px;
     margin-top: 26px;
-    margin-left: 30px; 
-    display: flex;    
-    cursor: pointer;   
-    align-items: center;     
-    justify-content: center;     
+    margin-left: 30px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
   }
 
   .menu-icon__line {
     width: 1rem;
-    height: 3px;        
+    height: 3px;
   }
 
   .menu {
@@ -351,23 +345,23 @@ h3 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;  
+    justify-content: center;
     margin: 0px 0px 40px 40px;
   }
 
-  #inicio {         
-    display: flex;        
-    flex-direction: column;             
-    justify-content: space-around;  
-    align-items: center;  
-    height: 100vh;  
+  #inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
   }
-  
-  #intro {   
-    width: 70vw; 
-    margin: auto;     
-    text-align: center; 
-    padding: 15px;   
+
+  #intro {
+    width: 70vw;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
   }
 
   .photo {
@@ -376,19 +370,19 @@ h3 {
   }
 
   h1 {
-    font-size: 18px; 
-    margin: 10px auto 10px;       
+    font-size: 18px;
+    margin: 10px auto 10px;
   }
 
   p {
     width: 70vw;
-    font-size: 14px; 
+    font-size: 14px;
   }
 
   button a {
     margin: 5px;
     padding: 5px;
-    font-size: 14px;     
+    font-size: 14px;
   }
 
   article {
@@ -412,4 +406,3 @@ h3 {
     font-size: 15px;
   }
 }
-
